@@ -8,25 +8,25 @@ const New = () => {
 
       <div className="container">
         <div className="left">
-          <img src="/img/ps.png" alt="PlayStation 5" />
+          <img src="/" alt="PlayStation 5" />
         
         </div>
 
         <div className="right">
           <div className="top">
-            <img src= "/img/ps.png" alt="Women’s Collections" />
+            <img src= "" alt="Women’s Collections" />
           
           </div>
 
           <div className="bottom">
             <div className="card">
-              <img src= "/img/ps.png" alt="Speakers" />
+              <img src= "/" alt="Speakers" />
           
              
             </div>
 
             <div className="card">
-              <img src="/img/ps.png" alt="Perfume" />
+              <img src="" alt="Perfume" />
             
             </div>
           </div>
