@@ -3,8 +3,8 @@ import Intro from "./components/intro/Intro";
 import Main from "./components/main/Main";
 import Chegirma from "./components/chegirma/Chegirma";
 import New from "./components/new/New";
-// import Ommabop from "./components/ommabop/Ommabop";
-// import BigMain from "./components/bigmain/BigMain";
+import BigMain from "./components/bigmain/BigMain";
+import Ommabop from "./components/ommabop/Ommabop";
 // import Footer from "./components/footer/Footer";
 
 function App() {
@@ -15,9 +15,9 @@ function App() {
        <Main />
       <Chegirma />
       <New />
-        {/* <Ommabop />
       <BigMain />
-      <Footer />   */}
+     <Ommabop />
+      {/* <Footer /> */}
     </>
   );
 }
