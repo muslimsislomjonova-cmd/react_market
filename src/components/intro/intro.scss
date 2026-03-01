@@ -1,0 +1,19 @@
+.intro {
+  padding: 60px 0;
+  background: #fdfafa;
+
+  .container {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  button {
+    padding: 10px 20px;
+    background: #1e90ff;
+    border: none;
+    color: white;
+  }
+}

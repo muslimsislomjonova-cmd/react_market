@@ -1,0 +1,27 @@
+.navbar {
+  background: white;
+  color: rgb(16, 16, 16);
+  padding: 15px 0;
+
+  .container {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    ul {
+      display: flex;
+      gap: 20px;
+      list-style: none;
+    }
+
+    button {
+      padding: 8px 15px;
+      background: #1e90ff;
+      border: none;
+      color: rgb(250, 248, 248);
+    
+    }
+  }
+}

@@ -1,0 +1,53 @@
+.main {
+  padding: 50px 0;
+  background: #fff;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto; 
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+.category-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.category-card {
+  width: 170px;
+  height: 140px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+
+  img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    object-fit: contain;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+
+}
+
+.active {
+  background: #1e90ff;
+  color: white;
+
+  img {
+    filter: brightness(0) invert(1);
+  }
+}
