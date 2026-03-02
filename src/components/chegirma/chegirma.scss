@@ -5,7 +5,7 @@
 
 .container {
   width: 1200px;
-  margin: 0 auto; // margin auto ishlaydi
+  margin: 0 auto;
 }
 
 .top {
@@ -35,13 +35,27 @@
   }
 }
 
+
 .cards {
   display: flex;
   gap: 20px;
+  overflow-x: auto; 
+  padding-bottom: 10px;
+  scroll-behavior: smooth;
+
+  &::-webkit-scrollbar {
+    height: 5px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #bbb9b9;
+    border-radius: 2px;
+  }
 }
 
 .card {
-  width: 250px;
+  min-width: 250px;  
+  flex-shrink: 0;    
   background: white;
   padding: 15px;
   border-radius: 10px;
@@ -103,7 +117,7 @@
     border: none;
     padding: 8px 15px;
     border-radius: 5px;
-    cursor: pointer;
+   
 
     &:hover {
       background: #0d6efd;
@@ -121,6 +135,6 @@
     border: none;
     color: white;
     border-radius: 8px;
-    cursor: pointer;
+    
   }
 }

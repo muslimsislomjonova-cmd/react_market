@@ -5,7 +5,7 @@ import Chegirma from "./components/chegirma/Chegirma";
 import New from "./components/new/New";
 import BigMain from "./components/bigmain/BigMain";
 import Ommabop from "./components/ommabop/Ommabop";
-// import Footer from "./components/footer/Footer";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
       <New />
       <BigMain />
      <Ommabop />
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }

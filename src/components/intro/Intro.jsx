@@ -11,9 +11,7 @@ function Intro() {
         </div>
 
         <div className="right">
-          <img
-            src="https://via.placeholder.com/500x300"
-            alt="laptop"
+          <img src="/images/original.png"
           />
         </div>
       </div>
